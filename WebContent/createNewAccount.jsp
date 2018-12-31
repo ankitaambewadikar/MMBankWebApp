@@ -9,10 +9,13 @@
 <form action="addNewAccount.mm">
 Enter AccountHolderName:<input type="text" name="accountHolderName" maxlength="30"><br>
 Enter Initial Account Balance:<input type=number name="accountBalance"><br>
-Enter Salaried y/n:<input type="checkbox" name="isSalariedtrue" value="yes">Yes
-<input type="checkbox" name="isSalariedfalse" value="no">No<br>
+Enter Salaried y/n:<input type="checkbox" name="isSalaried" value="Yes">Yes
+					<input type="checkbox" name="isSalaried" value="No">No<br>
 <input type="submit" value="Submit">
 <input type="reset" value="Reset">
 </form>
+<div>
+		<jsp:include page="homeLink.html"></jsp:include>
+	</div>
 </body>
 </html>

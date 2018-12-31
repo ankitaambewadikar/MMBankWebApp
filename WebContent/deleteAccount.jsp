@@ -10,5 +10,8 @@
 Enter Account Number:<input type="text" name="accountNumber"><br>
 <input type="submit" value="Close Account">
 </form>
+<div>
+		<jsp:include page="homeLink.html"></jsp:include>
+	</div>
 </body>
 </html>

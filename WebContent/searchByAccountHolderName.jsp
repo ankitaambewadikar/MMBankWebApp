@@ -4,16 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>searchAccount</title>
+<title>Insert title here</title>
 </head>
 <body>
-<form action="search.mm">
-	<h3>Search Account By</h3>
-		<!-- Enter Account Number: <input type="number" name="txtAccountNumber" />
+<form action = "searchByHolderName.mm">
+		Enter Holder Name: <input type="text" name="txtHolderNumber">
 		<br /> <input type="submit" value="Submit">
- -->
- 	<li><a href="searchByAccountNumber.mm">By Account Number</a></li>
-    <li><a href = "searchByAccountHolderName.mm">By Holder Name</a></li><br><br>
 	</form>
 	<div>
 		<jsp:include page="homeLink.html"></jsp:include>
